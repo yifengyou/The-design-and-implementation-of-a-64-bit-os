@@ -61,9 +61,14 @@
 
 ## 相关情报站点
 
+[GitHub](https://github.com/yifengyou/The-design-and-implementation-of-a-64-bit-operating-system)
+
+![1528025065553.png](image/1528025065553.png)
+
 [GitBook读书笔记](https://yifengyou.gitbooks.io/the-design-and-implementation-of-a-64-bit-operati/content/)
 
 ![1528024651841.png](image/1528024651841.png)
+
 
 
 [图灵社区该书站点](http://www.ituring.com.cn/book/2450)
