@@ -1,1 +1,4 @@
 *.o
+*.bin
+*.img
+log.bochsrc.disk
