@@ -1,5 +1,4 @@
 #!/bin/bash
 
-sudo apt-get update
-sudo apt-get install build-essential libgtk2.0-dev xorg-dev bison libx11-dev nasm  -y
-
+sudo yum makecache 
+sudo yum install nasm gcc-c++ glibc-headers libX11-devel libXrandr-devel lrzsz -y
