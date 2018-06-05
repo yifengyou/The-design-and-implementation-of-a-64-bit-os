@@ -1,6 +1,37 @@
 # 《一个64位操作系统的设计与实现》学习笔记
 
-![1528023254566.png](image/1528023254566.png)
+![1528172698621.png](image/1528172698621.png)
+
+## 本仓库说明
+
+1. 本仓库代码默认运行环境位Ubuntu16 x64，相关环境搭建参看**《第二章-环境搭建及基础知识》**
+2. 尽量做到每个例程用一个run.sh脚本一键运行跑起，目前还在更新中。。随书源码在Mac下开发，乱的一笔，整理一波先。
+3. 书才收到没多久，慢慢看，稳稳更新。。
+4. 尽可能做到每个实例用脚本启动运行，尽可能添加注释
+
+```
+Something I hope you know before go into the coding~
+* First, please watch or star this repo, I'll be more happy if you follow me.
+* Bug report, questions and discussion are welcome, you can post an issue or pull a request.
+```
+
+## 相关情报站点
+
+1. 本仓库已经开始作为gitbook仓库，访问地址
+
+<https://yifengyou.gitbooks.io/the-design-and-implementation-of-a-64-bit-operati/content/>
+
+![1528024651841.png](image/1528024651841.png)
+
+2. GitHub仓库地址
+
+<https://github.com/yifengyou/The-design-and-implementation-of-a-64-bit-operating-system>
+
+3. 图灵社区该书介绍站点
+
+<http://www.ituring.com.cn/book/2450>
+
+![1528024676833.png](image/1528024676833.png)
 
 ## 该书简介
 
@@ -58,26 +89,3 @@
 
       欢迎加入技术讨论~
       可以在issue提问~
-
-## 相关情报站点
-
-[GitHub](https://github.com/yifengyou/The-design-and-implementation-of-a-64-bit-operating-system)
-
-![1528025065553.png](image/1528025065553.png)
-
-[GitBook读书笔记](https://yifengyou.gitbooks.io/the-design-and-implementation-of-a-64-bit-operati/content/)
-
-![1528024651841.png](image/1528024651841.png)
-
-
-
-[图灵社区该书站点](http://www.ituring.com.cn/book/2450)
-
-
-![1528024676833.png](image/1528024676833.png)
-
-## 其他说明
-
-1. 本仓库代码默认运行环境位Ubuntu16。软件包安装在code下运行脚本buildev.sh即可完成环境搭建
-2. 尽量做到每个例程用一个run.sh脚本一键运行跑起，目前还在更新中。。随书源码在Mac下开发，乱的一笔，整理一波先。。
-3. 
