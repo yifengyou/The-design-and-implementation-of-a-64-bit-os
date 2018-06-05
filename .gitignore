@@ -1,4 +1,4 @@
 *.o
 *.bin
 *.img
-log.bochsrc.disk
+log.bochsrc.floppy
