@@ -1,8 +1,6 @@
 # 1 "entry.S"
 # 1 "<built-in>"
-# 1 "<command-line>"
-# 1 "/usr/include/stdc-predef.h" 1 3 4
-# 1 "<command-line>" 2
+# 1 "<命令行>"
 # 1 "entry.S"
 # 16 "entry.S"
 # 1 "linkage.h" 1

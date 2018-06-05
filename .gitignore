@@ -1,6 +1,9 @@
 *.o
 *.bin
 *.img
+boot.img
 log.bochsrc.floppy
 tags
 bochs-2.6.8
+system
+
