@@ -35,7 +35,7 @@ else
 fi
 echo -e "\033[31m=== gen boot.bin ===\033[0m"
 nasm boot.asm -o boot.bin
-nasm loader.asm -o kernel.bin
+nasm loader.asm -o loader.bin
 echo -e "\033[31m=== write boot.bin  to boot.img ===\033[0m"
 dd if=boot.bin of=boot.img bs=512 count=1 conv=notrunc
 
@@ -45,7 +45,7 @@ fi
 
 mount -t vfat -o loop boot.img tmp/
 
-cp kernel.bin tmp/
+cp loader.bin tmp/
 sync
 
 umount tmp/
