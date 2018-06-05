@@ -3,3 +3,4 @@
 *.img
 log.bochsrc.floppy
 tags
+bochs-2.6.8
