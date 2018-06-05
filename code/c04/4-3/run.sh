@@ -48,6 +48,10 @@ echo -e "${RED_COLOR}=== gen boot.bin ===${RESET}"
 cd bootloader
 
 make 
+if [ $? -ne 0 ];then
+    echo -e "${RED_COLOR}==bootloader make failed!Please checkout first!==${RESET}"
+    exit 1
+fi
 
 cd ..
 
@@ -57,6 +61,10 @@ echo -e "${RED_COLOR}=== gen kernel.bin ===${RESET}"
 cd kernel
 
 make 
+if [ $? -ne 0 ];then
+    echo -e "${RED_COLOR}==kernel make failed!Please checkout first!==${RESET}"
+    exit 1
+fi
 
 cd ..
 
@@ -75,8 +83,17 @@ mount -t vfat -o loop boot.img tmp/
 
 rm -rf tmp/*
 
-cp kernel/kernel.bin tmp/
 cp bootloader/loader.bin tmp/
+if [ $? -ne 0 ];then
+    echo -e "${RED_COLOR}copy loader.bin error!${RESET}"
+    exit 1
+fi
+
+cp kernel/kernel.bin tmp/
+if [ $? -ne 0 ];then
+    echo -e "${RED_COLOR}copy kernel.bin error!${RESET}"
+    exit 1
+fi
 
 sync
 
@@ -89,7 +106,7 @@ echo -e "${RED_COLOR}=== running..PS:emulator will stop at beinging,press 'c' to
 if [ -e /usr/local/bin/bochs ];then
     /usr/local/bin/bochs -qf bochsrc.floppy
 else
-    echo "Please check your bochs environment!!!"
+    echo -e "${RED_COLOR}Please check your bochs environment!!!{RESET}"
     exit 1
 fi
 

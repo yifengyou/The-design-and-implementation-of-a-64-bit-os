@@ -16,7 +16,6 @@
 #ifndef __LIB_H__
 #define __LIB_H__
 
-
 #define NULL 0
 
 #define container_of(ptr,type,member)							\
@@ -30,7 +29,6 @@
 #define cli()	 	__asm__ __volatile__ ("cli	\n\t":::"memory")
 #define nop() 		__asm__ __volatile__ ("nop	\n\t")
 #define io_mfence() 	__asm__ __volatile__ ("mfence	\n\t":::"memory")
-
 
 struct List
 {
