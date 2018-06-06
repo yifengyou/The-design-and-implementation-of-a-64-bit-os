@@ -13,8 +13,8 @@
 ;
 ;***************************************************/
 
-	dd if=boot.bin of=../bochs-2.6.6/boot.img bs=512 count=1 conv=notrunc
-	mount ../bochs-2.6.6/boot.img /media/ -t vfat -o loop 
-	cp loader.bin	/media/
-	sync
-	umount /media/
+dd if=boot.bin of=../bochs-2.6.6/boot.img bs=512 count=1 conv=notrunc
+mount ../bochs-2.6.6/boot.img /media/ -t vfat -o loop 
+cp loader.bin	/media/
+sync
+umount /media/
