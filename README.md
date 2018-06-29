@@ -89,3 +89,9 @@ Something I hope you know before go into the coding~
 
       欢迎加入技术讨论~
       可以在issue提问~
+
+## B站
+
+B站上看到一个大佬分享系统开发经验，搞了个原型机，挺有意思，有兴趣的童鞋看看~~相比嚼蜡，这个更智障，高端书都是大佬看大佬推荐，弱智的东西其实很少人知道，但却是最实在的。
+
+* B站链接:<https://www.bilibili.com/video/av21049129/?p=1/>
