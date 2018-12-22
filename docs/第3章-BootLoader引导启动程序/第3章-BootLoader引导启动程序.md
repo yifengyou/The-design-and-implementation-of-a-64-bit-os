@@ -150,5 +150,23 @@ StartBootMessage:	db	"Start Boot"
 ## 3-4
 
 ![1528174397109.png](image/1528174397109.png)
+由于还没有编写kernel.bin 可以touch一下随便输入点东西
 
-不解为何报错，并没有像书上65页所示。作者也没说明。。探索中。。。作者惜字如金，还得让读者猜一猜~~因缺思厅
+
+**如果在471行加入jump $后面cpu进入不了实模式**
+00015149860i[BXVGA ] VBE set bpp (32)
+00015149882i[BXVGA ] VBE set xres (1440)
+00015149921i[BXVGA ] VBE set yres (900)
+00015149959i[BXVGA ] VBE enabling x 1440, y 900, bpp 32, 5184000 bytes visible
+**看不见字符串的原因是这段字符串显示过后会重新设置显示器，由于CPU运行过快所以就刷掉了。**
+**如果想要看见字符串，要在虚拟机模拟前下断点,b 0x10000,然后单步跟踪即可**
+(0) [0x000000010444] 0008:0000000000010444 (unk. ctxt): jmpf 0x0008:00100000 ; ea000010000800
+bochs:902
+Next at t=15151035
+(0) [0x000000100000] 0008:0000000000100000 (unk. ctxt): (invalid) ; 61
+bochs:903
+00015151035e[CPU0 ] interrupt(long mode): IDT entry extended attributes DWORD4 TYPE != 0
+00015151035e[CPU0 ] interrupt(long mode): IDT entry extended attributes DWORD4 TYPE != 0
+00015151035e[CPU0 ] interrupt(long mode): IDT entry extended attributes DWORD4 TYPE != 0
+# 00015151035i[CPU0 ] CPU is in long mode (active)
+由于还没有编写异常处理模块，所以CPU进入 0x0008:00100000会异常，但是CPU成功开启了保护模式
