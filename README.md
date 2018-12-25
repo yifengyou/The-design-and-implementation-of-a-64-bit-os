@@ -1,9 +1,9 @@
 # 《一个64位操作系统的设计与实现》学习笔记
-@yifengyou本仓库原作者
-结合本书和此仓库作者读书笔记进行学习，更新一些细节
-![1528172698621.png](image/1528172698621.png)
 
-总算搞了个BAT offer，许久没更新了。近些日子搞起~
+**@yifengyou本仓库原作者**
+**结合本书和此仓库作者读书笔记进行学习，更新一些细节**
+**@breakingdevil本人在学习此书的同时对此仓库内容进行一些补充和更新**
+![1528172698621.png](image/1528172698621.png)
 
 ## 本仓库说明
 
@@ -22,13 +22,13 @@ Something I hope you know before go into the coding~
 
 1. 本仓库已经开始作为gitbook仓库，访问地址
 
-<https://yifengyou.gitbooks.io/the-design-and-implementation-of-a-64-bit-operati/content/>
+<https://hkcoldmoon.gitbook.io/the-design-and-implementation-of-64-bit-os/>
 
 ![1528024651841.png](image/1528024651841.png)
 
 2. GitHub仓库地址
 
-<https://github.com/yifengyou/The-design-and-implementation-of-a-64-bit-operating-system>
+<https://github.com/breakingdevil/The-design-and-implementation-of-a-64-bit-operating-system>
 
 3. 图灵社区该书介绍站点
 
@@ -86,15 +86,3 @@ Something I hope you know before go into the coding~
 第15章　Shell命令解析器及命令
 第16章　一个彩蛋
 ```
-## 技术交流
-
-![1528023577132.png](image/1528023577132.png)
-
-      欢迎加入技术讨论~
-      可以在issue提问~
-
-## B站
-
-B站上看到一个大佬分享系统开发经验，搞了个原型机，挺有意思，有兴趣的童鞋看看~~相比嚼蜡，这个更智障，高端书都是大佬看大佬推荐，弱智的东西其实很少人知道，但却是最实在的。
-
-* B站链接:<https://www.bilibili.com/video/av21049129/?p=1/>
