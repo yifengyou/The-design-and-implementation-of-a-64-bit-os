@@ -1,0 +1,133 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BLACK	printk.h	34;"	d
+BLUE	printk.h	39;"	d
+ENTRY	linkage.h	40;"	d
+FB_addr	printk.h	/^	unsigned int * FB_addr;$/;"	m	struct:position
+FB_length	printk.h	/^	unsigned long FB_length;$/;"	m	struct:position
+GDT_BASE	head.S	/^GDT_BASE:	.quad	GDT_Table$/;"	l
+GDT_BASE	head.s	/^GDT_BASE: .quad GDT_Table$/;"	l
+GDT_END	head.S	/^GDT_END:$/;"	l
+GDT_END	head.s	/^GDT_END:$/;"	l
+GDT_LIMIT	head.S	/^GDT_LIMIT:	.word	GDT_END - GDT_Table - 1$/;"	l
+GDT_LIMIT	head.s	/^GDT_LIMIT: .word GDT_END - GDT_Table - 1$/;"	l
+GDT_POINTER	head.S	/^GDT_POINTER:$/;"	l
+GDT_POINTER	head.s	/^GDT_POINTER:$/;"	l
+GDT_Table	head.S	/^GDT_Table:$/;"	l
+GDT_Table	head.s	/^GDT_Table:$/;"	l
+GREEN	printk.h	38;"	d
+IDT_BASE	head.S	/^IDT_BASE:	.quad	IDT_Table$/;"	l
+IDT_BASE	head.s	/^IDT_BASE: .quad IDT_Table$/;"	l
+IDT_END	head.S	/^IDT_END:$/;"	l
+IDT_END	head.s	/^IDT_END:$/;"	l
+IDT_LIMIT	head.S	/^IDT_LIMIT:	.word	IDT_END - IDT_Table - 1$/;"	l
+IDT_LIMIT	head.s	/^IDT_LIMIT: .word IDT_END - IDT_Table - 1$/;"	l
+IDT_POINTER	head.S	/^IDT_POINTER:$/;"	l
+IDT_POINTER	head.s	/^IDT_POINTER:$/;"	l
+IDT_Table	head.S	/^IDT_Table:$/;"	l
+IDT_Table	head.s	/^IDT_Table:$/;"	l
+INDIGO	printk.h	40;"	d
+L1_CACHE_BYTES	linkage.h	23;"	d
+LEFT	printk.h	27;"	d
+List	lib.h	/^struct List$/;"	s
+NULL	lib.h	19;"	d
+ORANGE	printk.h	36;"	d
+PLUS	printk.h	25;"	d
+PURPLE	printk.h	41;"	d
+Pos	printk.h	/^}Pos;$/;"	v	typeref:struct:position
+RED	printk.h	35;"	d
+SIGN	printk.h	24;"	d
+SMALL	printk.h	29;"	d
+SPACE	printk.h	26;"	d
+SPECIAL	printk.h	28;"	d
+SYMBOL_NAME	linkage.h	29;"	d
+SYMBOL_NAME_LABEL	linkage.h	33;"	d
+SYMBOL_NAME_STR	linkage.h	31;"	d
+Start_Kernel	main.c	/^void Start_Kernel(void)$/;"	f
+TSS64_BASE	head.S	/^TSS64_BASE:	.quad	TSS64_Table$/;"	l
+TSS64_BASE	head.s	/^TSS64_BASE: .quad TSS64_Table$/;"	l
+TSS64_END	head.S	/^TSS64_END:$/;"	l
+TSS64_END	head.s	/^TSS64_END:$/;"	l
+TSS64_LIMIT	head.S	/^TSS64_LIMIT:	.word	TSS64_END - TSS64_Table - 1$/;"	l
+TSS64_LIMIT	head.s	/^TSS64_LIMIT: .word TSS64_END - TSS64_Table - 1$/;"	l
+TSS64_POINTER	head.S	/^TSS64_POINTER:$/;"	l
+TSS64_POINTER	head.s	/^TSS64_POINTER:$/;"	l
+TSS64_Table	head.S	/^TSS64_Table:$/;"	l
+TSS64_Table	head.s	/^TSS64_Table:$/;"	l
+WHITE	printk.h	33;"	d
+XCharSize	printk.h	/^	int XCharSize;$/;"	m	struct:position
+XPosition	printk.h	/^	int XPosition;$/;"	m	struct:position
+XResolution	printk.h	/^	int XResolution;$/;"	m	struct:position
+YCharSize	printk.h	/^	int YCharSize;$/;"	m	struct:position
+YELLOW	printk.h	37;"	d
+YPosition	printk.h	/^	int YPosition;$/;"	m	struct:position
+YResolution	printk.h	/^	int YResolution;$/;"	m	struct:position
+ZEROPAD	printk.h	23;"	d
+_LINKAGE_H_	linkage.h	17;"	d
+__FONT_H__	font.h	17;"	d
+__LIB_H__	lib.h	17;"	d
+__PDE	head.S	/^__PDE:$/;"	l
+__PDE	head.s	/^__PDE:$/;"	l
+__PDPTE	head.S	/^__PDPTE:$/;"	l
+__PDPTE	head.s	/^__PDPTE:$/;"	l
+__PML4E	head.S	/^__PML4E:$/;"	l
+__PML4E	head.s	/^__PML4E:$/;"	l
+__PRINTK_H__	printk.h	17;"	d
+____cacheline_aligned	linkage.h	27;"	d
+_start	head.S	/^_start:$/;"	l
+_start	head.s	/^_start:$/;"	l
+asmlinkage	linkage.h	25;"	d
+bit_clean	lib.h	/^inline unsigned long bit_clean(unsigned long * addr,unsigned long nr)$/;"	f
+bit_get	lib.h	/^inline unsigned long bit_get(unsigned long * addr,unsigned long nr)$/;"	f
+bit_set	lib.h	/^inline unsigned long bit_set(unsigned long * addr,unsigned long nr)$/;"	f
+buf	printk.h	/^char buf[4096]={0};$/;"	v
+cli	lib.h	29;"	d
+color_printk	printk.c	/^int color_printk(unsigned int FRcolor,unsigned int BKcolor,const char * fmt,...)$/;"	f
+container_of	lib.h	21;"	d
+do_div	printk.h	83;"	d
+entry64	head.S	/^entry64:$/;"	l
+entry64	head.s	/^entry64:$/;"	l
+font_ascii	font.h	/^unsigned char font_ascii[256][16]=$/;"	v
+go_to_kernel	head.S	/^go_to_kernel:$/;"	l
+go_to_kernel	head.s	/^go_to_kernel:$/;"	l
+io_in32	lib.h	/^inline unsigned int io_in32(unsigned short port)$/;"	f
+io_in8	lib.h	/^inline unsigned char io_in8(unsigned short port)$/;"	f
+io_mfence	lib.h	31;"	d
+io_out32	lib.h	/^inline void io_out32(unsigned short port,unsigned int value)$/;"	f
+io_out8	lib.h	/^inline void io_out8(unsigned short port,unsigned char value)$/;"	f
+is_digit	printk.h	31;"	d
+list_add_to_before	lib.h	/^inline void list_add_to_before(struct List * entry,struct List * new)	\/\/\/\/add to entry behind$/;"	f
+list_add_to_behind	lib.h	/^inline void list_add_to_behind(struct List * entry,struct List * new)	\/\/\/\/add to entry behind$/;"	f
+list_del	lib.h	/^inline void list_del(struct List * entry)$/;"	f
+list_init	lib.h	/^inline void list_init(struct List * list)$/;"	f
+list_is_empty	lib.h	/^inline long list_is_empty(struct List * entry)$/;"	f
+list_next	lib.h	/^inline struct List * list_next(struct List * entry)$/;"	f
+list_prev	lib.h	/^inline struct List * list_prev(struct List * entry)$/;"	f
+mcmodel	Makefile	/^	gcc -static  -mcmodel=large -fno-builtin -m64 -c main.c  -fno-stack-protector$/;"	m
+mcmodel	Makefile	/^	gcc -static  -mcmodel=large -fno-builtin -m64 -c printk.c -fno-stack-protector$/;"	m
+memcmp	lib.h	/^inline int memcmp(void * FirstPart,void * SecondPart,long Count)$/;"	f
+memcpy	lib.h	/^inline void * memcpy(void *From,void * To,long Num)$/;"	f
+memset	lib.h	/^inline void * memset(void * Address,unsigned char C,long Count)$/;"	f
+next	lib.h	/^	struct List * next;$/;"	m	struct:List	typeref:struct:List::List
+nop	lib.h	30;"	d
+number	printk.c	/^static char * number(char * str, long num, int base, int size, int precision,	int type)$/;"	f	file:
+port_insw	lib.h	408;"	d
+port_outsw	lib.h	411;"	d
+position	printk.h	/^struct position$/;"	s
+prev	lib.h	/^	struct List * prev;$/;"	m	struct:List	typeref:struct:List::List
+putchar	printk.c	/^void putchar(unsigned int * fb,int Xsize,int x,int y,unsigned int FRcolor,unsigned int BKcolor,unsigned char font)$/;"	f
+skip_atoi	printk.c	/^int skip_atoi(const char **s)$/;"	f
+sti	lib.h	28;"	d
+strcat	lib.h	/^inline char * strcat(char * Dest,char * Src)$/;"	f
+strcmp	lib.h	/^inline int strcmp(char * FirstPart,char * SecondPart)$/;"	f
+strcpy	lib.h	/^inline char * strcpy(char * Dest,char * Src)$/;"	f
+strlen	lib.h	/^inline int strlen(char * String)$/;"	f
+strncmp	lib.h	/^inline int strncmp(char * FirstPart,char * SecondPart,long Count)$/;"	f
+strncpy	lib.h	/^inline char * strncpy(char * Dest,char * Src,long Count)$/;"	f
+switch_seg	head.S	/^switch_seg:$/;"	l
+switch_seg	head.s	/^switch_seg:$/;"	l
+vsprintf	printk.c	/^int vsprintf(char * buf,const char *fmt, va_list args)$/;"	f
