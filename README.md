@@ -2,7 +2,9 @@
 
 ![1528172698621.png](image/1528172698621.png)
 
-总算搞了个BAT offer，许久没更新了。近些日子搞起~
+```
+工作毕业均落实，书已经阅过，笔记不能落下。持续更新搞事情
+```
 
 ## 本仓库说明
 
@@ -21,13 +23,13 @@ Something I hope you know before go into the coding~
 
 1. 本仓库已经开始作为gitbook仓库，访问地址
 
-<https://yifengyou.gitbooks.io/the-design-and-implementation-of-a-64-bit-operati/content/>
+<https://yifengyou.gitbooks.io/the-design-and-implementation-of-a-64-bit-os>
 
 ![1528024651841.png](image/1528024651841.png)
 
 2. GitHub仓库地址
 
-<https://github.com/yifengyou/The-design-and-implementation-of-a-64-bit-operating-system>
+<https://github.com/yifengyou/The-design-and-implementation-of-a-64-bit-os>
 
 3. 图灵社区该书介绍站点
 
@@ -40,13 +42,6 @@ Something I hope you know before go into the coding~
 本书讲述了一个64位多核操作系统的自制过程。此操作系统自制过程是先从虚拟平台构筑起一个基础框架，随后再将基础框架移植到物理平台中进行升级、完善与优化。为了凸显64位多核操作系统的特点，物理平台选用搭载着**Intel Core-i7**处理器的笔记本电脑。与此同时，本书还将Linux内核的源码精髓、诸多官方白皮书以及多款常用协议浓缩于其中，可使读者在读完本书后能够学以致用，进而达到理论联系实际的目的。
 
 本书既适合在校学习理论知识的初学者，又适合在职工作的软件工程师或有一定基础的业余爱好者。
-
-```
-  出版日期2018-05-31
-  书　　号978-7-115-47525-1
-  定　　价139.00元(死贵 =_=! good angry a~)
-  页　　数680
-```
 
 ## 作者简介
 
@@ -87,13 +82,22 @@ Something I hope you know before go into the coding~
 ```
 ## 技术交流
 
+### QQ群：144571173
+
+![20190822_120729_91](image/20190822_120729_91.png)
+
+* 《一个64位操作系统的设计与实现》交流群
+* 群主即为该书作者，有问题直接怼他就行
+* 不需要添加好友瞎逼逼
+
+### QQ群：148177180
+
 ![1528023577132.png](image/1528023577132.png)
 
-      欢迎加入技术讨论~
-      可以在issue提问~
+* 《操作系统真象还原》交流群
 
-## B站
+### QQ群：361934810
 
-B站上看到一个大佬分享系统开发经验，搞了个原型机，挺有意思，有兴趣的童鞋看看~~相比嚼蜡，这个更智障，高端书都是大佬看大佬推荐，弱智的东西其实很少人知道，但却是最实在的。
+![20190822_121204_11](image/20190822_121204_11.png)
 
-* B站链接:<https://www.bilibili.com/video/av21049129/?p=1/>
+* 《大话计算机》交流群
