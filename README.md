@@ -2,13 +2,9 @@
 
 ![1528172698621.png](image/1528172698621.png)
 
-```
-工作毕业均落实，书已经阅过，笔记不能落下。持续更新搞事情
-```
-
 ## 本仓库说明
 
-1. 本仓库代码默认运行环境位CenOS6.4 x64，相关环境搭建参看**《第二章-环境搭建及基础知识》**
+1. 本仓库代码默认运行环境位 CenOS6.4 x64，相关环境搭建参看**《第二章-环境搭建及基础知识》**
 2. 尽量做到每个例程用一个run.sh脚本一键运行跑起，目前还在更新中。。随书源码在Mac下开发，乱的一笔，整理一波先。
 3. 书才收到没多久，慢慢看，稳稳更新。。
 4. 尽可能做到每个实例用脚本启动运行，尽可能添加注释
@@ -19,23 +15,18 @@ Something I hope you know before go into the coding~
 * Bug report, questions and discussion are welcome, you can post an issue or pull a request.
 ```
 
-## 相关情报站点
+## 相关站点
 
-1. 本仓库已经开始作为gitbook仓库，访问地址
-
-<https://yifengyou.gitbooks.io/the-design-and-implementation-of-a-64-bit-os>
+1. GitBook地址：<https://yifengyou.gitbooks.io/the-design-and-implementation-of-a-64-bit-os>
 
 ![1528024651841.png](image/1528024651841.png)
 
-2. GitHub仓库地址
-
-<https://github.com/yifengyou/The-design-and-implementation-of-a-64-bit-os>
-
-3. 图灵社区该书介绍站点
-
-<http://www.ituring.com.cn/book/2450>
+2. 图灵社区该书站点：<http://www.ituring.com.cn/book/2450>
 
 ![1528024676833.png](image/1528024676833.png)
+
+3. GitHub仓库地址：<https://github.com/yifengyou/The-design-and-implementation-of-a-64-bit-os>
+4. PDF下载地址：<https://www.jb51.net/books/678143.html>
 
 ## 该书简介
 
@@ -59,7 +50,7 @@ Something I hope you know before go into the coding~
 
 1. 基于Intel Core i7处理器的64位多核操作系统
 2. 引入诸多Linux内核的设计精髓
-3. 既可在Bochs虚拟机中执行，又可通过U盘引导运行于笔记本电脑
+3. 既可在Bochs虚拟机中执行，又可通过U盘引导运行于台式机、笔记本电脑
 
 ## 目录
 
@@ -81,7 +72,7 @@ Something I hope you know before go into the coding~
 * [第15章-Shell命令解析器及命令](docs/第15章-Shell命令解析器及命令/第15章-Shell命令解析器及命令.md)
 * [第16章-一个彩蛋](docs/第16章-一个彩蛋/第16章-一个彩蛋.md)
 * [勘误](docs/勘误/勘误.md)
-* [吐槽大会](docs/吐槽大会/吐槽大会.md)
+* [吐槽](docs/吐槽/吐槽.md)
 * [Linux内核模型机-演示内核工作原理](docs/Linux内核模型机-演示内核工作原理/Linux内核模型机-演示内核工作原理.md)
 * [操作系统为什么那么难](docs/操作系统为什么那么难/操作系统为什么那么难.md)
 * [内存管理为什么那么难](docs/内存管理为什么那么难/内存管理为什么那么难.md)
